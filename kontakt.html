@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+</head>
+<body>
+    
+    <nav class="navbar bg-dark" id="dark">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="navbar-brand">
+                    <h1>LI</h1>
+                </a>
+            </div>
+            <button class="navbar-toggler">
+                <i class="fa fa-bars"></i>
+            </button>
+        
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Meny</a></li>
+                <li><a href="om-oss.html" class="nav-link">Om oss</a></li>
+                <li><a href="boka.html" class="nav-link">Boka bord</a></li>
+                <li class="current"><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+
+
+<div class="navbar-appear">
+    <ul class="navbar-right">
+        <li> <button class="close">✖️</button></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="menu.html" class="nav-link">Meny</a></li>
+        <li><a href="om-oss.html" class="nav-link">Om oss</a></li>
+        <li><a href="boka.html" class="nav-link">Boka bord</a></li>
+        <li class="current"><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+    </ul>
+</div>
+
+<div class="header-kontakt">
+    <h1>KONTAKTUPPGIFTER</h1>
+</div>
+<br>
+<br>
+
+
+<div class="text-kontakt"> 
+    <p>Tel: +46156475212 </p>
+    <p>Adress: Birger Jarlsgatan 15, 111 44</p>
+    <p>Stockholm</p>
+</div>
+
+<br>
+<br>
+
+<div class="header-kontakt-two">
+    <h1>Nyheter. Prenumerera</h1>
+</div>
+
+<form
+    action="https://formspree.io/f/xoqyyoyy"
+    method="POST">
+    <input type="hidden" name="_language" value="sv"> 
+    <div class="form-kontakt">
+        <label>
+        Namn:
+        <br>
+        <input class="text-input" type="text" name="name" placeholder="Ditt namn..." required ="">
+        </label>
+        </div>
+    <div class="form-kontakt">
+    <label>
+    E-mail:
+    <br>
+    <input class="text-input" type="email" name="_replyto" placeholder="email..." required ="">
+    </label>
+    </div>
+    <div class="form-kontakt">
+        <label for="tel">Telefonnumer:
+            <br>
+        <input class="text-input" type="tel" name="tel" value="+46" required="">
+    </label>
+    </div>
+    
+    <div class="form-kontakt">
+    <button class="btn-kontakt" type="submit">Skicka</button>
+    </div>    
+</form>
+
+<br>
+
+
+
+    <footer>
+        <p>Öppettider</p>
+        <p>Måndag – Fredag kl 11.00 – 22.00</p>
+        <p> Lördag kl. 11.00 – 22.00</p>
+        <p>Söndag kl 11.00 – 22.00</p>
+        <p>Lilla Italia</p>
+        <p>Ring: +46156475212</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

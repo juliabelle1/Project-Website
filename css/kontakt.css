@@ -1,0 +1,63 @@
+.header-kontakt{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.header-kontakt-two{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.header-kontakt h1{
+    font-size: 2rem;
+}
+
+.text-kontakt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-kontakt p{
+    font-size: 1.2rem;
+}
+
+.form-kontakt{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+label{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.text-input{
+    background-color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+}
+
+input,textarea{
+    width: 250px;
+}
+
+.btn-kontakt{
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    background: rgba(29, 28, 28, 0.6);
+    color: #ffdd93;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    
+input,textarea{
+    width: 400px;
+}
+}
+    
