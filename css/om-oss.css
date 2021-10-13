@@ -19,10 +19,12 @@
     margin: 20px;
 }
 
-.text-om-oss p{
+.text-om-oss h3{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin: 30px; 
 }
+
 
 .images-om-oss{
     display: flex;
@@ -39,7 +41,7 @@
 
 @media (min-width: 768px) {
     .text-om-oss{
-        padding: 30;
+        padding: 20px;
     }
 
     .images-om-oss{
@@ -47,18 +49,14 @@
     }
 
 
-    .text-om-oss p{
-        margin: 20px;
-    }
-
-    .text-om-oss p{
-        font-size: 1.3rem;
+    .text-om-oss h3{
+        font-size: 1.5rem;
     }
 
 }  
 @media (min-width: 992px) {
     .text-om-oss{
-        padding: 40;
+        padding: 30px;
     }
 
     .images-om-oss img{
@@ -71,6 +69,6 @@
 
 @media (min-width: 1200px) {
     .text-om-oss{
-        padding: 40;
+        padding: 40px;
     }
 }
